@@ -13,10 +13,10 @@ const Navbar = () => {
           <a href="#skills" className='desktopMenuListItem'>Skills</a>
           <a href="#projects" className='desktopMenuListItem'>Projects</a>
         </div>
-        <button className='desktopMenubotton'>
+        <a href="#contact" className='desktopMenubotton'>
           <img src={message} alt="Contact" className='desktopMenuImg' />
           Contact Me
-        </button>
+        </a>
       </nav>
     </div>  
   );

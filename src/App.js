@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Intro from './components/Navbar/intro/Intro'
 import Skills from './components/Navbar/Skills/Skills'
 import Works from './components/Navbar/Works/Works'
-import Contact from './components/Navbar/ContactMe'
+import Contact from './components/Navbar/Contact/Contact'
 
 const App = () => {
   return (
