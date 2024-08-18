@@ -8,10 +8,11 @@ const Navbar = () => {
       <nav className='navbar'>
         <div>Portfolio.</div>
         <div className='desktopmenu'>
-          <a href="#home" className='desktopMenuListItem'>Home</a>
-          <a href="#about" className='desktopMenuListItem'>About</a>
-          <a href="#skills" className='desktopMenuListItem'>Skills</a>
-          <a href="#projects" className='desktopMenuListItem'>Projects</a>
+        <a href="#home" className='desktopMenuListItem' style={{ color: 'white' }}>Home</a>
+          <a href="#about" className='desktopMenuListItem' style={{ color: 'white' }}>About</a>
+          <a href="#experience" className='desktopMenuListItem' style={{ color: 'white' }}>Experience</a>
+          <a href="#skills" className='desktopMenuListItem' style={{ color: 'white' }}>Skills</a>
+          <a href="#projects" className='desktopMenuListItem' style={{ color: 'white' }}>Projects</a>
         </div>
         <a href="#contact" className='desktopMenubotton'>
           <img src={message} alt="Contact" className='desktopMenuImg' />

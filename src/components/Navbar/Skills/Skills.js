@@ -3,33 +3,64 @@ import './skills.css';
 import python from '../../../assets/python.jpg';
 import django from '../../../assets/django.png';
 import react from '../../../assets/react.png';
+import javascript from '../../../assets/javascript.png';
+import SQL from '../../../assets/sql.png';
+import aws from '../../../assets/aws.png';
 
 const Skills = () => {
   return (
    <div id='skills'>
-        <span className='skillTitle'>What i do</span>
-        <span className='skillDesc'>Skilled in developing scalable web applications, automating tasks, and working with data analysis and machine learning using Python. Proficient in frameworks like Django and Flask, with experience in writing clean, efficient code, integrating APIs, and collaborating with cross-functional teams. Strong problem-solving abilities and a commitment to continuous learning.</span>
+        <h1 style={{ textAlign: 'center', width: '100%' }}>Skills</h1>
         <div className='SkillBars'>
-            <div className='skillBar'>
-                <img src={python} alt='' className='skillBarImg'/>
-                <div className='skillBarText'>
-                    <h2>Python</h2>
-                    <p>proficient in python</p>
+            <div className='skillRow'>
+                <div className='skillBar'>
+                    <img src={python} alt='Python' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>Python</h2>
+                        <p>Proficient in Python</p>
+                    </div>
+                </div>
+
+                <div className='skillBar'>
+                    <img src={django} alt='Django' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>Django</h2>
+                        <p>Experience in writing APIs using Django</p>
+                    </div>
+                </div>
+                
+                <div className='skillBar'>
+                    <img src={react} alt='React.js' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>React.js</h2>
+                        <p>Proficient in React.js</p>
+                    </div>
                 </div>
             </div>
 
-            <div className='skillBar'>
-                <img src={django} alt='' className='skillBarImg'/>
-                <div className='skillBarText'>
-                    <h2>Django</h2>
-                    <p>by using django i can write the apis</p>
+            <div className='skillRow'>
+                <div className='skillBar'>
+                    <img src={javascript} alt='JavaScript' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>JavaScript</h2>
+                        <p>Experienced with JavaScript</p>
+                    </div>
                 </div>
-            </div>
-            <div className='skillBar'>
-                <img src={react} alt='' className='skillBarImg'/>
-                <div className='skillBarText'>
-                    <h2>React.js</h2>
-                    <p>proficient in react.js</p>
+
+                <div className='skillBar'>
+                    <img src={SQL} alt='SQL' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>SQL</h2>
+                        <p>Proficient in SQL</p>
+                    </div>
+                </div>
+
+                <div className='skillBar'>
+                    <img src={aws} alt='AWS' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>AWS</h2>
+                        <p>Experience with AWS</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,4 +68,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;

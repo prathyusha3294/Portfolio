@@ -1,17 +1,17 @@
 .contact-container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2px;
     background-color: rgb(30,30,30);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(50,50,50);
   }
   
   .contact-container h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #333;
+    color: rgb(50,50,50);
   }
   
   .contact-info {
@@ -19,6 +19,7 @@
     padding: 0;
     font-size: 18px;
     color:white;
+    text-align: left;
   }
   
   .contact-info li {

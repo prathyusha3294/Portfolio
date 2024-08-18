@@ -27,7 +27,7 @@ const projects = [
 const Works = () => {
   return (
     <div id='projects'>
-      <h1 className='workstitle'>My Projects</h1>
+      <h1 style={{ textAlign: 'center', width: '100%' }}>My Projects</h1>
       <div className='projectss'>
         {projects.map((project, index) => (
           <div key={index} className='project'>

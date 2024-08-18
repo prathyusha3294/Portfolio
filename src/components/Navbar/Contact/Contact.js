@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => {
   return (
     <div id="contact" className="contact-container">
-      <h2 style={{ color: 'white' }}>Contact Me</h2>
+      <h2 style={{ color: 'white', textAlign: 'center', width: '100%' }}>Contact Me</h2>
       <p>You can reach me via the following methods:</p>
       <ul className="contact-info">
         <li><strong>Email:</strong> kummariprathyusha@gmail.com</li>

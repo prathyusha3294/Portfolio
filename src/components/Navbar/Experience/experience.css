@@ -1,0 +1,41 @@
+.experience-container {
+    padding: 40px;
+    background-color:  rgb(30,30,30);
+    color:white;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(50,50,50);
+    border-radius: 8px;
+    box-shadow:rgb(50,50,50);
+  }
+  
+  .experience-item h3 {
+    margin-top: 0;
+    color: white;
+  }
+  
+  .experience-item p {
+    margin: 5px 0;
+  }
+  
+  .experience-item ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .experience-item ul li {
+    margin-bottom: 8px;
+  }
+  
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-container .btn {
+    flex: 1; /* Ensure buttons are evenly sized */
+}

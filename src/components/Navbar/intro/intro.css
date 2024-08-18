@@ -26,8 +26,8 @@
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Aligns items to the top vertically */
-    align-items: flex-start; /* Aligns items to the left horizontally */
+    justify-content: flex-start;
+    align-items: flex-start; 
     text-align: left; 
     position: relative;
     z-index: 1; 

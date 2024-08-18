@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 import btnImg from '../../../assets/hire.png';
-import download from '../../../assets/download.avif'
+import download from '../../../assets/download.avif';
 import resume from '../../../assets/PrathyushaKummari_Resume_PythonFull-Stack_developer (1) (1).pdf';
 
 const Intro = () => {
